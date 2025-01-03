@@ -14,6 +14,7 @@ export default function HomePage() {
         const response = await fetch("/api/statistics");
         const data = await response.json();
         setStatistics(data);
+        
       } catch (error) {
         console.error("Error fetching statistics:", error);
       }

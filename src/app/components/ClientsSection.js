@@ -10,6 +10,7 @@ export default function ClientsSection() {
         const response = await fetch("/api/clients");
         const data = await response.json();
         setClients(data);
+        
       } catch (error) {
         console.error("Error fetching clients:", error);
       }

@@ -51,16 +51,16 @@ const Header = () => {
         <nav
           className={`hidden md:flex items-center space-x-6 text-sm`}
         >
-          <Link href="/home">Home</Link>
+          <Link href="/#home">Home</Link>
           <div className="relative group">
-            <Link href="/services" className="flex items-center">
+            <Link href="/#services" className="flex items-center">
               Our Services
               <span className="ml-1">▼</span>
             </Link>
           </div>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">Contact Us</Link>
-          <Link href="/about">About Us</Link>
+          <Link href="/#blog">Blog</Link>
+          <Link href="/#contact">Contact Us</Link>
+          <Link href="/#about">About Us</Link>
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
